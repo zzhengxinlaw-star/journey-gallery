@@ -80,7 +80,9 @@
   }
   
   .image img {
-    width: 750;
+    display: block;
+    width: 100%;
+    max-width: 360px;
     border-radius: 10px;
     height: auto;
   }
@@ -109,3 +111,10 @@
     color: white;
     padding: 10px;
   }
+.gondola-icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
